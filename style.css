@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Licorice&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: rgb(96, 122, 52);
+}
+
+h1 {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.book-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-container {
+  margin-top: 2rem;
+  width: 70vh;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  background-color: #aed0bb84;
+  box-shadow: #d7e7d6 0px 1px 3px 2px;
+}
+
+.greeting {
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.thought {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.Btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.book-btn {
+  padding: 0.6rem 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  background-color: rgb(68, 86, 36);
+  color: white;
+  border: none;
+}
+
+.book-btn:hover {
+  background-color: #2e6631;
+  cursor: pointer;
+}
+
+.book-information {
+  margin-top: 2rem;
+  width: 50%;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  background-color: #aed0bb84;
+  box-shadow: #d7e7d6 0px 1px 3px 2px;
+  display: none;
+}
+
+.user-books {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1.7rem;
+}
+
+.add-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.2rem;
+  margin-bottom: 1.7rem;
+}
+
+#book-name,
+#author-name,
+#pages-read {
+  outline: none;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+  border: none;
+  margin-top: 0.3rem;
+}
+
+.button {
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  border-radius: 1rem;
+  background-color: rgb(96, 122, 52);
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: #2e6631;
+  cursor: pointer;
+}
+
+.book-cards {
+  width: 300px;
+  margin-top: 3rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  box-shadow: #d7e7d6 0px 1px 3px 2px;
+  border-radius: 1rem;
+  padding: 0.5rem 0.5rem 1rem 0.5rem;
+  background-color: #aed0bb84;
+}
+
+.main-card {
+  display: flex;
+  row-gap: 1.5rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.book-card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.info {
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.update {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 1rem 0.6rem 0.6rem 0.6rem;
+}
+
+.butt {
+  padding: 0.2rem 1rem;
+  border-radius: 1rem;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 1rem;
+  background-color: rgb(68, 86, 36);
+}
+
+.butt:hover {
+  background-color: #2e6631;
+  cursor: pointer;
+}
